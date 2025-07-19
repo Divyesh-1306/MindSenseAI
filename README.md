@@ -1,16 +1,40 @@
-MindSense AI: It is a web application that provides emotionally intelligent chatbot support, emotion detection from text and voice, and personalized well-being recommendations. Built with Flask, HuggingFace Transformers, and modern web technologies.
+# MindSense AI
 
+MindSense AI is a mental health support chatbot that provides personalized recommendations based on user emotions.
 
+## Features
 
-Features:
-Emotion Detection: Analyze emotions from both text and voice input.
+*   Text-based emotion analysis
+*   Voice-based emotion analysis
+*   Personalized music and breathing recommendations
+*   Integration with Groq API for human-like chatbot responses
 
-AI Chatbot: Human-like, empathetic chatbot powered by Llama-4 via Groq API.
+## Getting Started
 
-Personalized Recommendations: Music, breathing exercises, and more based on detected emotions.
+1.  Clone the repository:
 
-User Authentication: Secure signup, login, and session management.
+    ```bash
+    git clone [repository URL]
+    ```
 
-Professional Support: Guidance and resources for mental health support.
+2.  Install the dependencies:
 
-Modern UI: Responsive and user-friendly interface.
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3.  Set the Groq API key as an environment variable:
+
+    ```bash
+    export GPT\_API\_KEY=[your Groq API key]
+    ```
+
+4.  Run the application:
+
+    ```bash
+    python Project/app.py
+    ```
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details.
