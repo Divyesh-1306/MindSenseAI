@@ -1,5 +1,4 @@
-MindSense AI
-MindSense AI is a web application that provides emotionally intelligent chatbot support, emotion detection from text and voice, and personalized well-being recommendations. Built with Flask, HuggingFace Transformers, and modern web technologies.
+MindSense AI: It is a web application that provides emotionally intelligent chatbot support, emotion detection from text and voice, and personalized well-being recommendations. Built with Flask, HuggingFace Transformers, and modern web technologies.
 
 
 
